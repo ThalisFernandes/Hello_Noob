@@ -28,5 +28,5 @@ const stopInterval = ()=>{
 
 const  openWindow = ()=>{
     let urls = ['www.google.com'];
-    urls.forEach(e=> open(e))
+    urls.forEach(e=> window.open(e))
 };
