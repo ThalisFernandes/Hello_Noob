@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    [mainFrame]{
+        width: 450px;
+        height: 450px;
+        background-color: gray;
+        box-shadow: inset;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+</style>
+<body>
+
+    <div mainFrame>
+        <form>
+            <input type="text" placeholder="email" width="150px" height="25px" id="email">
+            <input type="button" value="send" onclick="sendEmail()">
+        </form>
+    </div>
+    
+</body>
+<script>
+    function sendEmail(){
+        window.open('./email.html')
+    }
+</script>
+</html>
