@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
 import time
-navegador = webdriver.Chrome(executable_path='/home/bizonho/Videos/chromedriver_linux64/chromedriver');
+navegador = webdriver.Chrome(executable_path='/home/bizonho/Videos/chromedriver_linux64/chromedriver')
 
 def troller_bot():
     navegador.get('http://www.omegle.com')
